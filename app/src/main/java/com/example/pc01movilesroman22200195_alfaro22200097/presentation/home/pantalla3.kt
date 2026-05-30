@@ -25,34 +25,33 @@ fun Pantalla3(navController: NavController) {
             pais = "Perú",
             ciudad = "Cusco",
             costoPromedio = 250.0,
-            imagenUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Machu_Picchu%2C_Peru.jpg/1280px-Machu_Picchu%2C_Peru.jpg"
+            imagenUrl = "https://picsum.photos/id/1011/400/300"
         ),
         Destination(
             pais = "Francia",
             ciudad = "París",
             costoPromedio = 800.0,
-            imagenUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/800px-Tour_Eiffel_Wikimedia_Commons.jpg"
+            imagenUrl = "https://picsum.photos/id/1018/400/300"
         ),
         Destination(
             pais = "Japón",
             ciudad = "Tokio",
             costoPromedio = 950.0,
-            imagenUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skyscrapers_of_Shinjuku_2009_January.jpg/1280px-Skyscrapers_of_Shinjuku_2009_January.jpg"
+            imagenUrl = "https://picsum.photos/id/1015/400/300"
         ),
         Destination(
             pais = "Italia",
             ciudad = "Roma",
             costoPromedio = 700.0,
-            imagenUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg"
+            imagenUrl = "https://picsum.photos/id/1016/400/300"
         ),
         Destination(
             pais = "Brasil",
             ciudad = "Río de Janeiro",
             costoPromedio = 450.0,
-            imagenUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg/800px-Christ_the_Redeemer_-_Cristo_Redentor.jpg"
+            imagenUrl = "https://picsum.photos/id/1019/400/300"
         )
     )
-
     val totalDestinos = destinos.size
     val sumaTotal = destinos.sumOf { it.costoPromedio }
 
